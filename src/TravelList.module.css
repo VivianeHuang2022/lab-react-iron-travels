@@ -1,0 +1,41 @@
+.mainBox {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display:flex;
+    flex-direction: row;
+    border: black 0.5px solid;
+    width : 600px;
+    align-items: center;
+    margin:20px;
+    border-radius: 5px;
+}
+
+.image{
+    padding:20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cards img {
+    width:300px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.label{
+    background-color: darkblue;
+    padding: 5px;
+    margin: 5px;
+    width:auto;
+    color:white;
+    border-radius: 5px;
+}
